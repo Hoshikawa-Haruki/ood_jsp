@@ -19,7 +19,7 @@ public class Ch03Controller {
     @GetMapping("ch03/include")
     public String ch03Include() {
         log.info("ch03Include() is called...");
-        return "ch03/index";
+        return "ch03/include/index";
     }
 
     @GetMapping("ch03/simple_page_directive")
@@ -28,4 +28,15 @@ public class Ch03Controller {
         return "ch03/simple_page/index";
     }
 
+    @GetMapping("ch03/error_page/index1")
+    public String ch03Error1() {
+        log.info("ch03Error1() is called...");
+        return "ch03/error_page/index1";
+    }
+    
+    @GetMapping("ch03/error_page/index2")
+    public String ch03Error2() {
+        log.info("ch03Error2() is called...");
+        return "ch03/error_page/index2";
+    }
 }
