@@ -13,8 +13,7 @@
     </head>
     <body>
         <%@include file="/WEB-INF/jspf/header.jspf"%>
-        <h1>나는야 본문맨!</h1>
-        <h2>깃허브 잘되는지 테스트</h2>
+        <h2> @include로 include 하기(컴파일 시점)</h2>
         <%@include file="/WEB-INF/jspf/footer.jspf"%>
         <%@include file="/WEB-INF/jspf/main_footer.jspf"%>
     </body>

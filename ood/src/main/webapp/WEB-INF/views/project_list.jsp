@@ -29,16 +29,16 @@
             <ol>
                 <li><a href="ch01/old">1장 (교재 방식)</a></li>
                 <li><a href="ch01/new">1장 (Spring 방식)</a></li>
-                <li><a href="ch02">2장</a></li>
-                <li><a href="ch03/simple_page_directive">3장 page 지시어</a></li>
-                <li><a href="ch03/include">3장 include 지시어</a></li>
-                <li><a href="ch03/error_page/index1">3장 error page 없는 경우</a></li>
-                <li><a href="ch03/error_page/index2">3장 error page 있는 경우</a></li>
+                <li><a href="ch02">2장 -完-</a></li>
+                <li><a href="ch03/simple_page_directive">3장 page 지시어 -完-</a></li>
+                <li><a href="ch03/include">3장 include 지시어 -完-</a></li>
+                <li><a href="ch03/error_page/index1">3장 error page 없는 경우 -完-</a></li>
+                <li><a href="ch03/error_page/index2">3장 error page 있는 경우 -完-</a></li>
                 <li><a href="ch03/project/simple_page">3장 page 지시어 (@PathVariable 사용: simple_page, error1, error2, include)</a></li>
-                <li><a href="ch04/beans">4장 Beans 사용</a></li>
-                <li><a href="ch04/beans2">4장 Beans 사용: Spring's form tag library</a></li>
-                <li><a href="ch04/include">4장 IncludeTest2</a></li>
-                <li><a href="ch04/forward">4장 ForwardTest</a></li>
+                <li><a href="ch04/beans">4장 Beans 사용 [현재 spring에서 불가]</a></li>
+                <li><a href="ch04/beans2">4장 Beans 사용: Spring's form tag library [현재 spring에서 불가]</a></li>
+                <li><a href="ch04/include">4장 IncludeTest2 -完-</a></li>
+                <li><a href="ch04/forward">4장 ForwardTest -完-</a></li>
                 <li><a href="ch05/eltest">5장 ELTest</a></li>
                 <li><a href="ch05/elimplicitobject">5장 ELImplicitObjectTest</a></li>
                 <li><a href="ch05/beanstest">5장 BeansTest (일반 목적 액션 사용 예제)</a></li>
@@ -60,6 +60,7 @@
                 <li><a href="ch07/download">7장 파일 내려받기</a></li>
                 <li><a href="ch08/init_parameter">8장 웹 초기화</a></li>
                 <li><a href="ch08/filter">8장 필터를 이용한 파일 내려받기</a></li>
+                <li><a href="ch04/scripting">4장 Scripting 요소 -完-</a></li>
             </ol>
         </div>
 

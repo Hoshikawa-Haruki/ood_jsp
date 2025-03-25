@@ -4,37 +4,31 @@
  */
 package deu.se.ood.beans;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 /**
  *
  * @author 915-11
  */
-public class SumBean {
+@Component
+@Slf4j
+public class SumSpringBean {
 
-    private Logger log = LoggerFactory.getLogger(getClass());
+    @Getter
+    @Setter
     private int n;
+    @Getter
     private int result;
 
-    public SumBean() {
-        log.debug("The instance SumBean created...");
+    public SumSpringBean() {
+        log.debug("The instance SumSpringBean created...");
         result = 0;
     }
 
     public void calculate() {
         result = n * (n + 1) / 2;
-    }
-
-    public int getN() {
-        return n;
-    }
-
-    public void setN(int n) {
-        this.n = n;
-    }
-
-    public int getResult() {
-        return result;
     }
 }
