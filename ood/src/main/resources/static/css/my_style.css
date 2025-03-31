@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2025. 3. 25., 오후 1:16:43
+    Author     : 915-11
+*/
+
+.padding_bottom_30px {
+    margin-bottom: 30px
+}
+
+.box {
+    border:20px solid;
+    margin:20px;
+    padding:10px;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+li {
+    margin-bottom:10px;
+}

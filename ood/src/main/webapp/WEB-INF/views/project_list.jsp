@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JSP 교재 내용</title>
         <link rel="stylesheet" type="text/css"
-              href="${pageContext.request.contextPath}/css/my_style.css">
+              href="${pageContext.request.contextPath}/css/my_style1.css">
         <script>
             <c:if test="${!empty msg}">
             alert("${msg}");
@@ -36,7 +36,7 @@
                 <li><a href="ch03/error_page/index2">3장 error page 있는 경우 -完-</a></li>
                 <li><a href="ch03/project/simple_page">3장 page 지시어 (@PathVariable 사용: simple_page, error1, error2, include)</a></li>
                 <li><a href="ch04/beans">4장 Beans 사용 -完-</a></li>
-                <li><a href="ch04/beans2">4장 Beans 사용: Spring's form tag library [현재 spring에서 불가]</a></li>
+                <li><a href="ch04/beans2">4장 Beans 사용: Spring's form tag library [현재진행형]</a></li>
                 <li><a href="ch04/include">4장 IncludeTest2 -完-</a></li>
                 <li><a href="ch04/forward">4장 ForwardTest -完-</a></li>
                 <li><a href="ch05/eltest">5장 ELTest</a></li>

@@ -42,7 +42,7 @@ public class Ch04Controller {
         return "ch04/beans/index";
     }
 
-    @PostMapping("ch04/showsum")
+    @PostMapping("/ch04/showsum")
     public String ch04ShowSum() {
         log.debug("ch04ShowSum() is called...");
         return "ch04/beans/show_sum";
