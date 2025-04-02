@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<jsp:useBean id="sum" scope="page" class="deu.se.ood.beans.SumBean" /> <!-- 여기서 실제로 인스턴스(객체)가 만들어짐 -->
+<jsp:useBean id="sum" scope="page" class="deu.se.ood.beans.ch04.SumBean" /> <!-- 여기서 실제로 인스턴스(객체)가 만들어짐 -->
 <jsp:setProperty name="sum" property="n"/> <!-- index.jsp 에서 사용자가 입력한 값이 request.getParameter 통해서 값이 전달됨 -->
 <html>
     <head>

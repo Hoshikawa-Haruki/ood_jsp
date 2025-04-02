@@ -39,7 +39,7 @@
                 <li><a href="ch04/beans2">4장 Beans 사용: Spring's form tag library [현재진행형]</a></li>
                 <li><a href="ch04/include">4장 IncludeTest2 -完-</a></li>
                 <li><a href="ch04/forward">4장 ForwardTest -完-</a></li>
-                <li><a href="ch05/eltest">5장 ELTest</a></li>
+                <li><a href="ch05/eltest">5장 ELTest -完-</a></li>
                 <li><a href="ch05/elimplicitobject">5장 ELImplicitObjectTest</a></li>
                 <li><a href="ch05/beanstest">5장 BeansTest (일반 목적 액션 사용 예제)</a></li>
                 <li><a href="ch05/simpletagtest/1">5장 SimpleTagTest1</a></li>
