@@ -25,13 +25,17 @@ public class Ch05Controller {
     }
 
     /**
-     * 
+     *
      * @param number 1..3
-     * @return 
+     * @return
      */
     @GetMapping("ch05/simpletagtest/{number}")
     public String simpleTagTest(@PathVariable Integer number) {
         return String.format("ch05/simpletagtest/index%d", number);
     }
 
+    @GetMapping("ch05/elimplicitobject")
+    public String ch05ELImplictObjectTest() {
+        return ("ch05/ELImplicitObjectTest/index");
+    }
 }

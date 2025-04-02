@@ -42,7 +42,7 @@
                 <li><a href="ch05/eltest">5장 ELTest -完-</a></li>
                 <li><a href="ch05/elimplicitobject">5장 ELImplicitObjectTest</a></li>
                 <li><a href="ch05/beanstest">5장 BeansTest (일반 목적 액션 사용 예제)</a></li>
-                <li><a href="ch05/simpletagtest/1">5장 SimpleTagTest1</a></li>
+                <li><a href="ch05/simpletagtest/1">5장 SimpleTagTest1 -完-</a></li>
                 <li><a href="ch05/simpletagtest/2">5장 SimpleTagTest2 (첫 번째 수정)</a></li>
                 <li><a href="ch05/simpletagtest/3">5장 SimpleTagTest3 (두 번째 수정)</a></li>
                 <li><a href="ch05/tagfiletest">5장 TagFileTest</a></li>

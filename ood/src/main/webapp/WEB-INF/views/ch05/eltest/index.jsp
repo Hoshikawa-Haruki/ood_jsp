@@ -14,13 +14,12 @@
     </head>
     <body>
         <jsp:useBean id="userBean" scope="page"
-                     class="deu.se.ood.beans.ch05.UserInfo" />
+                     class="deu.se.ood.beans.ch05.UserInfo" /> <!-- Bean 인스턴스 생성 -->
         <jsp:setProperty name="userBean" property="name" value="김갈치" />
         <jsp:setProperty name="userBean" property="age" value="25" />
 
         사용자 이름: ${userBean.name} <br/>
         나이: ${userBean["age"]} <br/>
         10년 뒤 나이: ${userBean.age+10}
-
     </body>
 </html>
