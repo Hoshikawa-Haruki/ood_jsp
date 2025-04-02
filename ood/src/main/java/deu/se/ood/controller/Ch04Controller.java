@@ -34,10 +34,4 @@ public class Ch04Controller {
         log.debug("ch04IncludeTest2() is called...");
         return "ch04/includeTest2/index";
     }
-
-    @GetMapping("ch04/beans2")
-    public String ch04Beans2() {
-        log.debug("ch04Beans2() is called...");
-        return "ch04/beans/index2";
-    }
 }
