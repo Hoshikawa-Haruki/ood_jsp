@@ -30,8 +30,8 @@ public class Ch04Controller {
     }
 
     @GetMapping("ch04/include")
-    public String ch04Include() {
-        log.debug("ch04Include() is called...");
+    public String ch04IncludeTest2() {
+        log.debug("ch04IncludeTest2() is called...");
         return "ch04/includeTest2/index";
     }
 
