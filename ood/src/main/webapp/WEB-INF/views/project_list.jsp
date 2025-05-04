@@ -49,8 +49,8 @@
                 <li><a href="ch05/tagfiletest/1">5장 TagFileTest (5.4.3 조건부 액션)</a></li>
                 <li><a href="ch05/tagfiletest/2">5장 TagFileTest (5.4.4 반복 액션)</a></li>
                 <li><a href="ch05/urltest">5장 UrlTest</a></li>
-                <li><a href="ch06/showtable1">6장 ShowTable1</a></li>
-                <li><a href="ch06/showtable2">6장 ShowTable2</a></li>
+                <li><a href="ch06/showtable1">6장 ShowTable1 完</a></li>
+                <li><a href="ch06/showtable2">6장 ShowTable2 完</a></li>
                 <li><a href="ch06/inserttable">6장 InsertTable (제어기에서 필요한 데이터
                         객체 불러 일 수행)</a></li>
                 <li><a href="ch06/hikari_cp">6장 Hikari CP</a></li>
