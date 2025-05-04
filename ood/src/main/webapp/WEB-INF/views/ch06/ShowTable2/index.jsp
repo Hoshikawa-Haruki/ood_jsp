@@ -22,5 +22,7 @@
                          schema="webmail" table="addrbook"/>
     </c:catch>
     ${empty errorReason ? "<noerror>" : errorReason} <!-- 오류 원인 출력 -->
+    <br/>
+    <a href="${pageContext.request.contextPath}/ch06/inserttable">주소록 추가</a>
 </body>
 </html>

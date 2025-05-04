@@ -28,4 +28,9 @@ public class Ch06Controller {
         return "ch06/ShowTable2/index";
     }
 
+    @GetMapping("ch06/inserttable")
+    public String ch06Inserttable() {
+        log.debug("● ch06InsertTable is called...");
+        return "ch06/InsertTable/index";
+    }
 }
